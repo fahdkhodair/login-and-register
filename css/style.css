@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.content{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(rgba(224, 29, 29, 0.699),rgba(236, 97, 11, 0.89)),url(https://images.pexels.com/photos/1323550/pexels-photo-1323550.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+}
+.forms{
+    width: 380px;
+    height: 450px;
+    background: white;
+    margin:5% auto;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+}
+.buttons{
+    width: 210px;
+    position: relative;
+	border-radius: 30px;
+    text-align: center;
+    margin:35px auto;
+    box-shadow: 0 0 20px 9px #c44a1aec;
+    padding: 4px;
+}
+.toggle-btns{
+    position: relative;
+    cursor: pointer;
+    background: transparent;
+    padding: 10px 20px;
+    outline: none;
+    border: 0;
+    padding: 10px 30px;
+    transition: .5s;
+}
+.toggle-btns:hover{
+    background-color: sandybrown;
+}
+#btn{
+    width: 110px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 20px;
+    transition: .6s;
+}
+.input-group{
+    top: 100px;
+    position: absolute;
+    width: 280px;
+    transition: .6s;
+}
+.input-field{
+    width: 100%;
+    padding: 10px 0;
+    background: transparent;
+    margin: 5px 0;
+    border-right:0;
+    border-left: 0;
+    border-top: 0;
+    outline: none;
+    background: transparent;
+}
+.check-box{
+    margin:30px 10px 30px 0;
+}
+span{
+    color: black;
+    bottom: 166px;
+    position: absolute;
+    font-size: 12px;
+}
+.sub-btn{
+    padding: 10px 30px;
+    width: 80%;
+    cursor: pointer;
+    margin:20px auto;
+    display: block;
+    border-radius: 30px;
+    text-align: center;
+    transition: .6s;
+    background-color: orange;
+}
+.sub-btn:hover{
+    background-color: sandybrown;
+}
+.social-icons{
+    margin:30px auto;
+    text-align: center;
+    color: black;
+}
+.social-icons .fa{
+font-size: 60px;
+color: black;
+margin: 0 12px;
+}
+#login{
+    left: 50px;
+}
+#register{
+    left: 520px;
+}
