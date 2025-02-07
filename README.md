@@ -10,9 +10,6 @@ A simple login and registration form built using **HTML, CSS, and JavaScript**.
 ## 📌 Technologies Used  
 - **HTML** – Structure of the forms  
 - **CSS** – Styling and responsiveness  
-- **JavaScript** – Form validation and interactions  
-
-## 📷 Screenshots  
-*(Add screenshots of your login and register forms here)*  
+- **JavaScript** – Form validation and interactions    
 
 ## 📂 Project Structure  
